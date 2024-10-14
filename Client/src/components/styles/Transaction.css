@@ -1,0 +1,45 @@
+.transaction-container {
+    margin: 20px 0;
+}
+
+.transaction-container h2 {
+    text-align: center;
+}
+
+.transaction-container form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.transaction-container input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.transaction-container button:hover {
+    background-color: #45a049;
+}
+
+.transaction-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.transaction-container li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    border-radius: 5px;
+}
